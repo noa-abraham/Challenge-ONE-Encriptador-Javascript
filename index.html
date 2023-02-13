@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
 
+    <!--Iconos-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+
 </head>
 
 <body>
@@ -30,7 +33,9 @@
         <section>
             <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
             <div>
-                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+
+                <h6 class="informacion">
+                    <iconify-icon inline icon="bi:exclamation-circle-fill" style="color: #495057;" width="16" height="16"></iconify-icon> Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="">Encriptar</button>
@@ -40,9 +45,10 @@
 
         <section>
 
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Ningún mensaje fue encontrado"></textarea>
+
             <div>
-                <button class="copiar" onclick="">Copiar</button>
+                <button class="btn-copiar" onclick="">Copiar</button>
             </div>
         </section>
 
